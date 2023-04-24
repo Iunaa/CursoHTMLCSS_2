@@ -48,7 +48,11 @@ nav{
 }
 
 main{
+    min-width: 300px;
+    max-width: 1440px;
+    margin: auto;
     background-color: white;
+
 }
 .article-title{
     font-family: var(--highlight-font);
@@ -58,6 +62,10 @@ main{
 .article-subtitle{
     font-family: var(--highlight-font);
     
+}
+
+.article-img1{
+    width: 100%;
 }
 
 footer{
