@@ -28,6 +28,17 @@ body{
     background-color: var(--color0);
     font-family: var(--defaul-font);
 }
+
+.body-paragraph{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;       /*espaço inicial do paragrafo*/
+    line-height: 1em;
+    font-size: 1em;
+}
+
+
+
 header{
     background-image: linear-gradient(to bottom, var(--color3), var(--color5));
     min-height: 150px;
@@ -90,13 +101,36 @@ main{
     border-bottom-left-radius: 10px;
 
 }
+
+main strong{
+    color: var(--color4);
+    font-weight: bold;
+    
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color4);
+    background-color: var(--color1);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--color4);
+}
 .article-title{
-    font-family: var(--highlight-font);
+    font-family: var(--android-font);
     color: var(--color5);
+   
 }
 
 .article-subtitle{
-    font-family: var(--highlight-font);
+    font-family: var(--android-font);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--color1), transparent);
+    color: var(--color4);
     
 }
 
@@ -109,11 +143,11 @@ main{
 }
 
 .article-video{
-    width: 70%;
+    width: 100%;
 }
 
 .article-small{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
